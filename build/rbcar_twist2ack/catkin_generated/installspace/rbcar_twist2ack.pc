@@ -1,0 +1,8 @@
+prefix=/home/fuelfighter/cartographer_ws/install
+
+Name: rbcar_twist2ack
+Description: Description of rbcar_twist2ack
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/fuelfighter/cartographer_ws/install/lib 
+Requires: 

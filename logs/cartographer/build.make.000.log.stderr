@@ -1,0 +1,10 @@
+In file included from [01m[K/usr/src/googletest/googlemock/include/gmock/gmock-spec-builders.h:75:0[m[K,
+                 from [01m[K/usr/src/googletest/googlemock/include/gmock/gmock-generated-function-mockers.h:43[m[K,
+                 from [01m[K/usr/src/googletest/googlemock/include/gmock/gmock.h:61[m[K,
+                 from [01m[K/home/fuelfighter/cartographer_ws/src/cartographer/cartographer/io/serialization_format_migration_test.cc:27[m[K:
+/usr/src/googletest/googlemock/include/gmock/gmock-matchers.h: In instantiation of ‘[01m[Kbool testing::internal::AnyEq::operator()(const A&, const B&) const [with A = unsigned int; B = int][m[K’:
+[01m[K/usr/src/googletest/googlemock/include/gmock/gmock-matchers.h:908:18:[m[K   required from ‘[01m[Kbool testing::internal::ComparisonBase<D, Rhs, Op>::Impl<Lhs>::MatchAndExplain(Lhs, testing::MatchResultListener*) const [with Lhs = const unsigned int&; D = testing::internal::EqMatcher<int>; Rhs = int; Op = testing::internal::AnyEq][m[K’
+[01m[K/home/fuelfighter/cartographer_ws/src/cartographer/cartographer/io/serialization_format_migration_test.cc:120:1:[m[K   required from here
+[01m[K/usr/src/googletest/googlemock/include/gmock/gmock-matchers.h:204:60:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   bool operator()(const A& a, const B& b) const { return [01;35m[Ka == b[m[K; }
+                                                          [01;35m[K~~^~~~[m[K

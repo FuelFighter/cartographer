@@ -1,0 +1,6 @@
+set(behavior_cloning_SETUP_PY_VERSION "0.0.0")
+set(behavior_cloning_SETUP_PY_SCRIPTS "")
+set(behavior_cloning_SETUP_PY_PACKAGES "behavior_cloning")
+set(behavior_cloning_SETUP_PY_PACKAGE_DIRS "src/behavior_cloning")
+set(behavior_cloning_SETUP_PY_MODULES "")
+set(behavior_cloning_SETUP_PY_MODULE_DIRS "")

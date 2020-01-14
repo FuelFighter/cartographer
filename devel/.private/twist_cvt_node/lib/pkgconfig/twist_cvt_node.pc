@@ -1,0 +1,8 @@
+prefix=/home/fuelfighter/cartographer_ws/devel/.private/twist_cvt_node
+
+Name: twist_cvt_node
+Description: Description of twist_cvt_node
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/fuelfighter/cartographer_ws/devel/.private/twist_cvt_node/lib 
+Requires: geometry_msgs rospy sensor_msgs

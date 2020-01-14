@@ -1,0 +1,4 @@
+Symlinking /home/fuelfighter/cartographer_ws/devel/lib/pkgconfig/rbcar_twist2ack.pc
+Symlinking /home/fuelfighter/cartographer_ws/devel/lib/python2.7/dist-packages/rbcar_twist2ack/__init__.py
+Symlinking /home/fuelfighter/cartographer_ws/devel/share/rbcar_twist2ack/cmake/rbcar_twist2ackConfig.cmake
+Symlinking /home/fuelfighter/cartographer_ws/devel/share/rbcar_twist2ack/cmake/rbcar_twist2ackConfig-version.cmake

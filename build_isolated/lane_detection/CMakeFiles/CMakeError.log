@@ -1,0 +1,41 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/fuelfighter/cartographer_ws/build_isolated/lane_detection/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_b9271"
+[1/2] Building C object CMakeFiles/cmTC_b9271.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b9271
+FAILED: cmTC_b9271 
+: && /usr/bin/cc   -rdynamic CMakeFiles/cmTC_b9271.dir/CheckSymbolExists.c.o  -o cmTC_b9271   && :
+CMakeFiles/cmTC_b9271.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+File /home/fuelfighter/cartographer_ws/build_isolated/lane_detection/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/fuelfighter/cartographer_ws/build_isolated/lane_detection/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/ninja" "cmTC_7d77c"
+[1/2] Building C object CMakeFiles/cmTC_7d77c.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_7d77c
+FAILED: cmTC_7d77c 
+: && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=pthread_create  -rdynamic CMakeFiles/cmTC_7d77c.dir/CheckFunctionExists.c.o  -o cmTC_7d77c  -lpthreads && :
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+

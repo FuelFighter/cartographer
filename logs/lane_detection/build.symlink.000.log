@@ -1,0 +1,4 @@
+Symlinking /home/fuelfighter/cartographer_ws/devel/lib/pkgconfig/lane_detection.pc
+Symlinking /home/fuelfighter/cartographer_ws/devel/lib/python2.7/dist-packages/lane_detection/__init__.py
+Symlinking /home/fuelfighter/cartographer_ws/devel/share/lane_detection/cmake/lane_detectionConfig.cmake
+Symlinking /home/fuelfighter/cartographer_ws/devel/share/lane_detection/cmake/lane_detectionConfig-version.cmake

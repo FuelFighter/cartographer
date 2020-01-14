@@ -1,0 +1,6 @@
+devel_space: /home/fuelfighter/cartographer_ws/devel
+install: false
+install_space: /home/fuelfighter/cartographer_ws/install
+profile: default
+source_space: /home/fuelfighter/cartographer_ws/src
+workspace: /home/fuelfighter/cartographer_ws

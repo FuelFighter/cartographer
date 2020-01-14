@@ -1,0 +1,8 @@
+prefix=/home/fuelfighter/cartographer_ws/devel_isolated/rover_control
+
+Name: rover_control
+Description: Description of rover_control
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/fuelfighter/cartographer_ws/devel_isolated/rover_control/lib 
+Requires: 

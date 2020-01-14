@@ -1,0 +1,8 @@
+prefix=/home/fuelfighter/cartographer_ws/install_isolated
+
+Name: behavior_cloning
+Description: Description of behavior_cloning
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/fuelfighter/cartographer_ws/install_isolated/lib 
+Requires: cv_bridge geometry_msgs image_transport roscpp rospy sensor_msgs std_msgs

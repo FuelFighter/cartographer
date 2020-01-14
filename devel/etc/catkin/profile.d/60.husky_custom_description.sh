@@ -1,0 +1,1 @@
+/home/fuelfighter/cartographer_ws/devel/.private/rover_description/etc/catkin/profile.d/60.husky_custom_description.sh

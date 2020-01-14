@@ -1,0 +1,4 @@
+Symlinking /home/fuelfighter/cartographer_ws/devel/lib/pkgconfig/camera_cal.pc
+Symlinking /home/fuelfighter/cartographer_ws/devel/lib/python2.7/dist-packages/camera_cal/__init__.py
+Symlinking /home/fuelfighter/cartographer_ws/devel/share/camera_cal/cmake/camera_calConfig.cmake
+Symlinking /home/fuelfighter/cartographer_ws/devel/share/camera_cal/cmake/camera_calConfig-version.cmake

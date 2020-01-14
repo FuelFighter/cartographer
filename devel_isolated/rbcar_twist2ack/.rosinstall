@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/fuelfighter/cartographer_ws/devel_isolated/rbcar_twist2ack/setup.sh

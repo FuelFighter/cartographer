@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/fuelfighter/cartographer_ws/devel_isolated/camera_cal/setup.sh

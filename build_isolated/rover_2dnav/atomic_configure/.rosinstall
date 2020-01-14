@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/fuelfighter/cartographer_ws/devel_isolated/rover_2dnav/setup.sh

@@ -1,0 +1,8 @@
+prefix=/home/fuelfighter/cartographer_ws/install
+
+Name: lane_detection
+Description: Description of lane_detection
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/fuelfighter/cartographer_ws/install/lib 
+Requires: cv_bridge geometry_msgs image_transport roscpp rospy sensor_msgs std_msgs

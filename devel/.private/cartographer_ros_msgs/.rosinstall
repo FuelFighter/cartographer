@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/fuelfighter/cartographer_ws/devel/.private/cartographer_ros_msgs/setup.sh

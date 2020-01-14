@@ -1,0 +1,4 @@
+Symlinking /home/fuelfighter/cartographer_ws/devel/lib/pkgconfig/rover_description.pc
+Symlinking /home/fuelfighter/cartographer_ws/devel/etc/catkin/profile.d/60.husky_custom_description.sh
+Symlinking /home/fuelfighter/cartographer_ws/devel/share/rover_description/cmake/rover_descriptionConfig-version.cmake
+Symlinking /home/fuelfighter/cartographer_ws/devel/share/rover_description/cmake/rover_descriptionConfig.cmake
